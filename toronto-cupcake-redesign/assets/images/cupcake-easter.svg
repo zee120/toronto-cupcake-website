@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Cupcake placeholder">
+  <rect width="220" height="220" fill="#fff"/>
+  <ellipse cx="110" cy="192" rx="62" ry="10" fill="#E8DCD7"/>
+  <path d="M62 102h96l-18 78H80z" fill="#2B2B2B"/>
+  <path d="M55 102c18-58 92-74 123-17 18 32-18 57-68 58-54 2-78-18-55-41z" fill="#A7DDE8"/>
+  <ellipse cx="108" cy="54" rx="13" ry="20" fill="#E85A9B"/>
+  <ellipse cx="128" cy="58" rx="13" ry="20" fill="#75C76D"/>
+</svg>

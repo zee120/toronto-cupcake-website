@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toronto Cupcake Redesign | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header navigation used across the prototype -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="index.html" aria-label="Toronto Cupcake home">
+        <span class="brand-mark">TC</span>
+        <span>Toronto Cupcake</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation">Menu</button>
+      <div class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="cupcakes.html">Our Cupcakes</a>
+        <a href="cart.html">Cart <span class="cart-count">0</span></a>
+        <a href="checkout.html">Checkout</a>
+      </div>
+      <form class="nav-search" role="search">
+        <label class="sr-only" for="home-search">Search cupcakes</label>
+        <input id="home-search" type="search" placeholder="Search cupcakes, flavors, occasions">
+        <button type="submit" aria-label="Search">Search</button>
+      </form>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero: replace hero-gift-box.svg with your exported Toronto Cupcake gift box image -->
+    <section class="hero container">
+      <div class="hero-content">
+        <p class="eyebrow">Toronto - Handcrafted - Delivered Fresh</p>
+        <h1>Toronto's Freshest Gourmet Cupcakes</h1>
+
+        <a class="btn primary" href="cupcakes.html">Order Now</a>
+      </div>
+    </section>
+
+    <!-- Why Toronto Cupcake section -->
+    <section class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">Why Toronto Cupcake</p>
+        <h2>Sweet simplicity for every special moment</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon">Fresh</span>
+          <h3>Fresh Daily</h3>
+          <p>Every cupcake is baked in small batches to keep texture, flavor, and freshness perfect.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">Menu</span>
+          <h3>Custom Flavor Menus</h3>
+          <p>Choose from classic favorites, seasonal cupcakes, and corporate logo designs.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">Fast</span>
+          <h3>Fast Delivery</h3>
+          <p>Reliable delivery across Toronto and the GTA with careful packaging and arrival windows.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Featured cupcake product grid: replace these SVG placeholders with exported product images in assets/images/ -->
+    <section class="section section-tinted container">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Cupcakes</p>
+        <h2>Best-selling flavors that delight</h2>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="assets/images/cupcake-vanilla.svg" alt="Chocolate vanilla cupcake">
+          <h3>Chocolate Vanilla Cupcake</h3>
+          <p>Chocolate cupcake topped with vanilla cream cheese.</p>
+          <div class="card-actions">
+            <a class="btn small ghost" href="cupcakes.html">View</a>
+            <button class="btn small add-to-cart" type="button">Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="assets/images/cupcake-peanut.svg" alt="Chocolate peanut butter cupcake">
+          <h3>Chocolate Peanut Butter Cupcake</h3>
+          <p>A chocolate cupcake with rich peanut butter frosting.</p>
+          <div class="card-actions">
+            <a class="btn small ghost" href="cupcakes.html">View</a>
+            <button class="btn small add-to-cart" type="button">Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="assets/images/cupcake-maple.svg" alt="Oh Canada cupcake">
+          <h3>Oh Canada Cupcake</h3>
+          <p>Red velvet cupcake topped with vanilla icing and maple detail.</p>
+          <div class="card-actions">
+            <a class="btn small ghost" href="cupcakes.html">View</a>
+            <button class="btn small add-to-cart" type="button">Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="assets/images/cupcake-coconut.svg" alt="Chocolate coconut cupcake">
+          <h3>Chocolate Coconut Cupcake</h3>
+          <p>Buttery vanilla cupcake topped with coconut snow.</p>
+          <div class="card-actions">
+            <a class="btn small ghost" href="cupcakes.html">View</a>
+            <button class="btn small add-to-cart" type="button">Add to Cart</button>
+          </div>
+        </article>
+      </div>
+      <div class="center-action">
+        <a class="btn ghost" href="cupcakes.html">View All Flavors</a>
+      </div>
+    </section>
+
+    <!-- Customer reviews -->
+    <section class="section container">
+      <div class="section-heading centered">
+        <h2>What our customers say</h2>
+      </div>
+      <div class="review-grid">
+        <article class="review-card">
+          <p class="stars">*****</p>
+          <p>"Absolutely the best cupcakes in Toronto. Moist, flavorful, and delivered warm."</p>
+          <span>- Melissa Hart, Toronto</span>
+        </article>
+        <article class="review-card">
+          <p class="stars">*****</p>
+          <p>"Our wedding guests loved the salted caramel mini cupcakes."</p>
+          <span>- Priya S., Etobicoke</span>
+        </article>
+        <article class="review-card">
+          <p class="stars">*****</p>
+          <p>"The ordering flow was simple and the cupcake boxes looked beautiful."</p>
+          <span>- Daniel C., North York</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Social section -->
+    <section class="section container social-section">
+      <h2>Follow Us</h2>
+      <div class="social-row" aria-label="Social media links">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="TikTok">TT</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </div>
+    </section>
+
+    <!-- Corporate orders banner -->
+    <section class="corporate-banner container">
+      <div>
+        <p class="eyebrow">Corporate Orders</p>
+        <h2>Logo cupcakes made easy for events and teams.</h2>
+      </div>
+      <a class="btn ghost" href="cupcakes.html">Explore Corporate Menu</a>
+    </section>
+  </main>
+
+  <!-- Footer used across the prototype -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h2>Toronto Cupcake</h2>
+        <p>Fresh gourmet cupcakes delivered across Toronto and the GTA.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="cupcakes.html">Cupcakes</a>
+        <a href="cart.html">Cart</a>
+        <a href="checkout.html">Checkout</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

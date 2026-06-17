@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Toronto Cupcake gift box placeholder</title>
+  <desc id="desc">Soft pink cupcake gift box scene. Replace with your exported hero image.</desc>
+  <rect width="1400" height="760" fill="#FCE4EC"/>
+  <rect y="540" width="1400" height="220" fill="#FDF8F5"/>
+  <circle cx="145" cy="190" r="120" fill="#fff" opacity=".55"/>
+  <circle cx="1240" cy="230" r="150" fill="#fff" opacity=".45"/>
+  <g transform="translate(490 230)">
+    <rect x="80" y="130" width="310" height="270" rx="18" fill="#E85A9B"/>
+    <rect x="106" y="160" width="258" height="212" rx="12" fill="#F48ABB"/>
+    <rect x="210" y="130" width="52" height="270" fill="#FCE4EC"/>
+    <rect x="80" y="230" width="310" height="48" fill="#FCE4EC"/>
+    <circle cx="235" cy="266" r="78" fill="#fff"/>
+    <text x="235" y="252" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#2B2B2B">TORONTO</text>
+    <text x="235" y="290" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#2B2B2B">CUPCAKE</text>
+    <path d="M115 135 C85 40 185 45 235 120 C285 45 388 42 356 135" fill="none" stroke="#F48ABB" stroke-width="46" stroke-linecap="round"/>
+    <path d="M115 135 C85 40 185 45 235 120 C285 45 388 42 356 135" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-dasharray="24 22"/>
+  </g>
+  <g transform="translate(180 410)">
+    <ellipse cx="120" cy="220" rx="130" ry="22" fill="#E7D8D2"/>
+    <path d="M60 90 h120 l-24 130 H84z" fill="#2B2B2B"/>
+    <path d="M55 92 c20-80 145-80 165 0 c-45 36-120 36-165 0z" fill="#fff"/>
+    <circle cx="138" cy="50" r="22" fill="#F48ABB"/>
+  </g>
+  <g transform="translate(1060 420)">
+    <ellipse cx="110" cy="210" rx="126" ry="22" fill="#E7D8D2"/>
+    <path d="M52 88 h116 l-22 126 H75z" fill="#2B2B2B"/>
+    <path d="M48 88 c18-76 138-76 158 0 c-42 34-114 34-158 0z" fill="#F7B9D4"/>
+    <circle cx="120" cy="45" r="14" fill="#E85A9B"/>
+    <circle cx="96" cy="52" r="8" fill="#E85A9B"/>
+  </g>
+</svg>

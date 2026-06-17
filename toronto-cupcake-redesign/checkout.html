@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toronto Cupcake Redesign | Checkout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header navigation used across the prototype -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="index.html" aria-label="Toronto Cupcake home">
+        <span class="brand-mark">TC</span>
+        <span>Toronto Cupcake</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation">Menu</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="cupcakes.html">Our Cupcakes</a>
+        <a href="cart.html">Cart <span class="cart-count">0</span></a>
+        <a class="active" href="checkout.html">Checkout</a>
+      </div>
+      <form class="nav-search" role="search">
+        <label class="sr-only" for="checkout-search">Search cupcakes</label>
+        <input id="checkout-search" type="search" placeholder="Search cupcakes, flavors, occasions">
+        <button type="submit" aria-label="Search">Search</button>
+      </form>
+    </nav>
+  </header>
+
+  <main class="container checkout-page">
+    <!-- Checkout title -->
+    <section class="checkout-heading">
+      <p class="eyebrow">Secure Checkout</p>
+      <h1>Delivery &amp; payment details</h1>
+    </section>
+
+    <div class="checkout-layout">
+      <!-- Prototype checkout form -->
+      <form class="checkout-form">
+        <label>
+          Full name
+          <input type="text" placeholder="Alex Morgan">
+        </label>
+        <label>
+          Email address
+          <input type="email" placeholder="alex@example.com">
+        </label>
+        <label class="full">
+          Delivery address
+          <input type="text" placeholder="198 Bakery Lane, Toronto, ON">
+        </label>
+        <div class="form-row">
+          <label>
+            City
+            <input type="text" placeholder="Toronto">
+          </label>
+          <label>
+            Postal code
+            <input type="text" placeholder="M5V 2T6">
+          </label>
+        </div>
+        <label class="full">
+          Card number
+          <input type="text" inputmode="numeric" placeholder="1234 5678 9012 3456">
+        </label>
+        <div class="form-row">
+          <label>
+            Expiry
+            <input type="text" placeholder="08/26">
+          </label>
+          <label>
+            CVC
+            <input type="text" inputmode="numeric" placeholder="123">
+          </label>
+        </div>
+        <button class="btn primary checkout-submit" type="submit">Confirm Order</button>
+      </form>
+
+      <!-- Order summary sidebar -->
+      <aside class="summary-card checkout-summary">
+        <h2>Order Summary</h2>
+        <div class="summary-row"><span>Items</span><span>$9.70</span></div>
+        <div class="summary-row"><span>Packaging</span><span>$1.50</span></div>
+        <div class="summary-row total"><span>Total</span><span>$11.20</span></div>
+        <p>No payment is processed in this prototype. The button simulates a completed order flow.</p>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Footer used across the prototype -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h2>Toronto Cupcake</h2>
+        <p>Review your order and enter your details for a polished checkout experience.</p>
+      </div>
+      <div class="footer-links">
+        <a href="cupcakes.html">Cupcakes</a>
+        <a href="cart.html">Cart</a>
+        <a href="confirmation.html">Confirmation</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

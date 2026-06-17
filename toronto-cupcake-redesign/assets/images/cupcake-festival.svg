@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Cupcake placeholder">
+  <rect width="220" height="220" fill="#fff"/>
+  <ellipse cx="110" cy="192" rx="62" ry="10" fill="#E8DCD7"/>
+  <path d="M62 102h96l-18 78H80z" fill="#2B2B2B"/>
+  <path d="M56 102c20-62 91-70 121-16 16 28-14 56-65 58-55 2-80-20-56-42z" fill="#FFF7EC"/>
+  <g fill="#B8954C">
+    <circle cx="96" cy="66" r="19"/><circle cx="126" cy="66" r="19"/>
+  </g>
+  <g fill="#2B2B2B">
+    <circle cx="96" cy="66" r="9"/><circle cx="126" cy="66" r="9"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 220" role="img" aria-label="Assorted cupcake dozen placeholder">
+  <rect width="260" height="220" fill="#fff"/>
+  <rect x="66" y="28" width="128" height="76" rx="8" fill="#E85A9B"/>
+  <rect x="78" y="40" width="104" height="52" rx="5" fill="#F48ABB"/>
+  <path d="M90 25h80l16 18H74z" fill="#B73E78"/>
+  <g transform="translate(42 104)">
+    <g>
+      <path d="M0 34h34l-6 32H7z" fill="#2B2B2B"/><circle cx="17" cy="30" r="22" fill="#FFF7EC"/>
+    </g>
+    <g transform="translate(54 0)">
+      <path d="M0 34h34l-6 32H7z" fill="#3C2620"/><circle cx="17" cy="30" r="22" fill="#F7E4C7"/>
+    </g>
+    <g transform="translate(108 0)">
+      <path d="M0 34h34l-6 32H7z" fill="#2B2B2B"/><circle cx="17" cy="30" r="22" fill="#F7B9D4"/>
+    </g>
+    <g transform="translate(162 0)">
+      <path d="M0 34h34l-6 32H7z" fill="#3C2620"/><circle cx="17" cy="30" r="22" fill="#FFF7EC"/>
+    </g>
+  </g>
+  <g transform="translate(68 160)">
+    <circle cx="0" cy="0" r="18" fill="#F7E4C7"/>
+    <circle cx="42" cy="0" r="18" fill="#F7B9D4"/>
+    <circle cx="84" cy="0" r="18" fill="#FFF7EC"/>
+    <circle cx="126" cy="0" r="18" fill="#A7DDE8"/>
+  </g>
+</svg>

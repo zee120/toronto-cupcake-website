@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Cupcake placeholder">
+  <rect width="220" height="220" fill="#fff"/>
+  <ellipse cx="110" cy="192" rx="62" ry="10" fill="#E8DCD7"/>
+  <path d="M62 102h96l-18 78H80z" fill="#2B2B2B"/>
+  <path d="M56 102c20-62 91-70 121-16 16 28-14 56-65 58-55 2-80-20-56-42z" fill="#FFF7EC"/>
+  <circle cx="112" cy="65" r="30" fill="#D9F2E3"/>
+  <circle cx="112" cy="58" r="10" fill="#7BBE8A"/>
+  <path d="M91 83c8-16 34-16 42 0" fill="#7BBE8A"/>
+  <text x="110" y="132" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#2B2B2B">PHOTO</text>
+</svg>

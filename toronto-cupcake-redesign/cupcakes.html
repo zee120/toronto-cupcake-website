@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toronto Cupcake Redesign | Cupcakes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header navigation used across the prototype -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="index.html" aria-label="Toronto Cupcake home">
+        <span class="brand-mark">TC</span>
+        <span>Toronto Cupcake</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation">Menu</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="cupcakes.html">Our Cupcakes</a>
+        <a href="cart.html">Cart <span class="cart-count">0</span></a>
+        <a href="checkout.html">Checkout</a>
+      </div>
+      <form class="nav-search" role="search">
+        <label class="sr-only" for="catalog-nav-search">Search cupcakes</label>
+        <input id="catalog-nav-search" type="search" placeholder="Search cupcakes, flavors, occasions">
+        <button type="submit" aria-label="Search">Search</button>
+      </form>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Catalog introduction and filters -->
+    <section class="catalog-intro container">
+      <p class="eyebrow">Cupcake Collection</p>
+      <h1>Explore flavors, filters, and perfect cupcake boxes.</h1>
+      <div class="catalog-tools">
+        <form class="catalog-search" role="search">
+          <label class="sr-only" for="catalog-search">Search catalog</label>
+          <input id="catalog-search" type="search" placeholder="Search flavors, themes, or ingredients">
+          <button class="btn" type="submit">Search</button>
+        </form>
+        <div class="filter-buttons" aria-label="Cupcake category filters">
+          <button type="button">Best Sellers</button>
+          <button type="button">Seasonal</button>
+          <button type="button">Corporate</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dozens section: replace SVG placeholders with your exported cupcake and box images in assets/images/ -->
+    <section class="catalog-section">
+      <div class="container">
+        <div class="catalog-section-title">
+          <h2>Dozens</h2>
+          <span>$41.50/doz</span>
+        </div>
+        <p>In a panic or can't decide? Add a dozen and we will pick 12 delicious treats for you.</p>
+        <div class="product-grid compact">
+          <article class="product-card">
+            <img src="assets/images/dozen-box.svg" alt="Assorted dozen cupcake box">
+            <h3>Assorted Dozen</h3>
+            <p>A mixed box of classic flavors for sharing.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Always available section: each product card uses an editable placeholder image path -->
+    <section class="catalog-section plain">
+      <div class="container">
+        <div class="catalog-section-title">
+          <h2>Always Available</h2>
+          <span>$3.75 each | $21.50 half dozen | $41.50 dozen</span>
+        </div>
+        <p>Have fun and select from the individual flavors below.</p>
+        <div class="product-grid">
+          <article class="product-card">
+            <img src="assets/images/cupcake-coconut.svg" alt="Beaches Jazz cupcake">
+            <h3>Beaches Jazz</h3>
+            <p>Nothing like cool jazz and a cupcake.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/images/cupcake-peanut.svg" alt="Chocolate peanut butter cupcake">
+            <h3>Chocolate Peanut Butter Cupcake</h3>
+            <p>Chocolate cupcake with peanut butter frosting.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/images/cupcake-vanilla.svg" alt="Chocolate vanilla cupcake">
+            <h3>Chocolate Vanilla Cupcake</h3>
+            <p>Chocolate cupcake topped with vanilla cream cheese.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/images/cupcake-hummingbird.svg" alt="Humming Bird cupcake">
+            <h3>Humming Bird Cupcake</h3>
+            <p>Vanilla cupcake topped with caramel and sea salt.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Holidays section: replace these image files when your final product photos are ready -->
+    <section class="catalog-section">
+      <div class="container">
+        <div class="catalog-section-title">
+          <h2>Holidays</h2>
+          <span>$3.75 - 5.00 each | $20.00 - 28.00 half dozen | $38 - 50 dozen</span>
+        </div>
+        <p>Special holiday cupcakes are individually priced. No holiday promotions currently.</p>
+        <div class="product-grid">
+          <article class="product-card">
+            <img src="assets/images/cupcake-maple.svg" alt="Oh Canada cupcake">
+            <h3>Oh Canada Cupcake</h3>
+            <p>Red velvet cupcake topped with vanilla icing.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/images/cupcake-shamrock.svg" alt="St Patty's Day cupcake">
+            <h3>St Patty's Day Cupcake</h3>
+            <p>Chocolate cupcake topped with vanilla cream cheese.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/images/cupcake-easter.svg" alt="Easter cupcake">
+            <h3>Easter Cupcake</h3>
+            <p>Chocolate cupcake with vanilla cream cheese.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/images/dozen-box.svg" alt="Christmas dozen box">
+            <h3>Christmas Dozen</h3>
+            <p>Assorted seasonal cupcake box.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Special events section: replace placeholder art with exported event cupcake images -->
+    <section class="catalog-section plain">
+      <div class="container">
+        <div class="catalog-section-title">
+          <h2>Special Events and Festivals</h2>
+        </div>
+        <p>If you are looking for weddings, engagements, or other special occasions, visit our occasions page.</p>
+        <div class="product-grid">
+          <article class="product-card">
+            <img src="assets/images/cupcake-festival.svg" alt="Toronto festival cupcake">
+            <h3>Toronto Film Festival Cupcake</h3>
+            <p>Chocolate cupcake topped with vanilla cream cheese.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/images/cupcake-photo.svg" alt="Custom image cupcake">
+            <h3>Custom Image Cupcake</h3>
+            <p>A personal photo printed on a cupcake topper.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/images/cupcake-cookie.svg" alt="Just for kids cupcake">
+            <h3>Just for Kids Cupcake</h3>
+            <p>Bright blue vanilla cupcake with cookie detail.</p>
+            <div class="card-actions">
+              <a class="btn small ghost" href="#">View</a>
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer used across the prototype -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h2>Toronto Cupcake</h2>
+        <p>Browse our catalog and choose the perfect cupcakes for your next event.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="cupcakes.html">Cupcakes</a>
+        <a href="cart.html">Cart</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

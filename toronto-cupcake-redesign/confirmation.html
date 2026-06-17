@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toronto Cupcake Redesign | Confirmation</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header navigation used across the prototype -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="index.html" aria-label="Toronto Cupcake home">
+        <span class="brand-mark">TC</span>
+        <span>Toronto Cupcake</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation">Menu</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="cupcakes.html">Our Cupcakes</a>
+        <a href="cart.html">Cart <span class="cart-count">0</span></a>
+        <a href="checkout.html">Checkout</a>
+      </div>
+      <form class="nav-search" role="search">
+        <label class="sr-only" for="confirmation-search">Search cupcakes</label>
+        <input id="confirmation-search" type="search" placeholder="Search cupcakes, flavors, occasions">
+        <button type="submit" aria-label="Search">Search</button>
+      </form>
+    </nav>
+  </header>
+
+  <main class="confirmation-page container">
+    <!-- Centered prototype confirmation message -->
+    <section class="confirmation-card">
+      <div class="success-icon" aria-hidden="true"></div>
+      <h1>Order Placed</h1>
+      <p>No payment is processed in this prototype. The button simulates a completed order flow.</p>
+      <a class="btn primary" href="index.html">Back to Home</a>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
