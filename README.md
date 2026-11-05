@@ -1,6 +1,6 @@
 Toronto Cupcake Redesign
 
-A modern UI/UX redesign prototype of the original Toronto Cupcake website, developed as part of the CIS 386 – Human-Computer Interaction (HCI) course project.
+A modern UI/UX redesign prototype of the original Toronto Cupcake website, developed as part of the CIS 386 – Human-Computer Interaction (HCI) course project. Designed by: Zaid Al-Obaidi 
 
 Project Overview
 
